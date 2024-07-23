@@ -1,0 +1,32 @@
+Index.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbal Tenses Dictionary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Verbal Tenses Dictionary</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Verbal Tenses</h2>
+            <ul id="verbTensesList">
+                <!-- Tiempos verbales serán insertados aquí por JavaScript -->
+            </ul>
+        </section>
+        <section id="detailsSection" class="hidden">
+            <h2 id="tenseTitle"></h2>
+            <p id="tenseDefinition"></p>
+            <p id="tenseStructure"></p>
+            <p id="tenseUses"></p>
+            <p id="tenseExamples"></p>
+            <button onclick="goBack()">Go Back</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
